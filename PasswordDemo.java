@@ -10,7 +10,7 @@ class PasswordDemo {
 
         if (password.length() < 8) {
             throw new InvalidPasswordException(
-                "Password must contain at least 8 characters."
+                    "Password must contain at least 8 characters."
             );
         }
 
